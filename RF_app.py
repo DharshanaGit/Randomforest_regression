@@ -13,7 +13,7 @@ st.set_page_config(
 # Load model
 @st.cache_resource
 def load_model():
-    return joblib.load("rf_model.pkl")
+    return joblib.load("rf_regression.pkl")
 
 model = load_model()
 
